@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lavenderfields",
+	"version": "${version}",
+	"name": "Lavender Fields",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Kuzvo, Srcyte"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lavenderfields/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dylanharry.lavenderfields.LavenderFields"
+		],
+		"client": [
+			"net.dylanharry.lavenderfields.LavenderFieldsClient"
+		],
+		"fabric-datagen": [
+			"net.dylanharry.lavenderfields.LavenderFieldsDataGenerator"
+		]
+	},
+	"mixins": [
+		"lavenderfields.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
