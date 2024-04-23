@@ -11,10 +11,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item LAVENDERDYE = registerItem("lavenderdye", new Item(new FabricItemSettings()));
+    public static final Item LAVENDER_DYE = registerItem("lavender_dye", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
-        entries.add(LAVENDERDYE);
+        entries.add(LAVENDER_DYE);
     }
 
     private static Item registerItem(String name, Item item){

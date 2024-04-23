@@ -22,6 +22,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)));
     public static final Block LAVENDER_STAINED_GLASS = registerBlock("lavender_stained_glass",
             new Block(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+    public static final Block LAVENDER_GLAZED_TERRACOTTA = registerBlock("lavender_glazed_terracotta",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_GLAZED_TERRACOTTA)));
 
 
     private static Block registerBlock(String name, Block block) {
