@@ -1,6 +1,7 @@
 package net.dylanharry.lavenderfields.item;
 
 import net.dylanharry.lavenderfields.LavenderFields;
+import net.dylanharry.lavenderfields.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,7 +17,11 @@ public static final ItemGroup LAVENDER_GROUP = Registry.register(Registries.ITEM
                 .icon(() -> new ItemStack(ModItems.LAVENDERDYE)).entries((displayContext, entries) -> {
                     entries.add(ModItems.LAVENDERDYE);
 
-
+                    entries.add(ModBlocks.LAVENDER_WOOL);
+                    entries.add(ModBlocks.LAVENDER_TERRACOTTA);
+                    entries.add(ModBlocks.LAVENDER_CONCRETE_POWDER);
+                    entries.add(ModBlocks.LAVENDER_CONCRETE);
+                    entries.add(ModBlocks.LAVENDER_STAINED_GLASS);
                 }).build());
 
 public static void registerItemGroups() {

@@ -1,5 +1,11 @@
 {
   "item.lavenderfields.lavenderdye": "Lavender Dye",
 
+  "block.lavenderfields.lavender_wool": "Lavender Wool",
+  "block.lavenderfields.lavender_terracotta": "Lavender Terracotta",
+  "block.lavenderfields.lavender_concrete_powder": "Lavender Concrete Powder",
+  "block.lavenderfields.lavender_concrete": "Lavender Concrete",
+  "block.lavenderfields.lavender_stained_glass": "Lavender Stained Glass",
+
   "itemgroup.lavendergroup": "Lavender Fields"
 }

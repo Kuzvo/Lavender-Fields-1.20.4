@@ -1,5 +1,6 @@
 package net.dylanharry.lavenderfields;
 
+import net.dylanharry.lavenderfields.block.ModBlocks;
 import net.dylanharry.lavenderfields.item.ModItemGroups;
 import net.dylanharry.lavenderfields.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,7 +16,9 @@ public class LavenderFields implements ModInitializer {
 	public void onInitialize() {
 
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
