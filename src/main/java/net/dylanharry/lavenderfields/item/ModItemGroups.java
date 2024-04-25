@@ -16,6 +16,7 @@ public static final ItemGroup LAVENDER_GROUP = Registry.register(Registries.ITEM
         FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lavendergroup"))
                 .icon(() -> new ItemStack(ModItems.LAVENDER_DYE)).entries((displayContext, entries) -> {
                     entries.add(ModItems.LAVENDER_DYE);
+                    entries.add(ModItems.LAVENDER_OIL);
 
                     entries.add(ModBlocks.LAVENDER_WOOL);
                     entries.add(ModBlocks.LAVENDER_TERRACOTTA);
