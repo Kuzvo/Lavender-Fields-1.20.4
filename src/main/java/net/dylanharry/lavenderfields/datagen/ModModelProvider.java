@@ -21,6 +21,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LAVENDER_CONCRETE_POWDER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LAVENDER_STAINED_GLASS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LAVENDER_WOOL);
+
+        //blockStateModelGenerator.registerGlassPane(ModBlocks.LAVENDER_STAINED_GLASS, ModBlocks.LAVENDER_STAINED_GLASS_PANE);
     }
 
     @Override

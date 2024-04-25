@@ -21,9 +21,12 @@ public class ModBlocks {
     public static final Block LAVENDER_CONCRETE = registerBlock("lavender_concrete",
             new Block(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)));
     public static final Block LAVENDER_STAINED_GLASS = registerBlock("lavender_stained_glass",
-            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS)));
+    public static final Block LAVENDER_STAINED_GLASS_PANE = registerBlock("lavender_stained_glass_pane",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)));
     public static final Block LAVENDER_GLAZED_TERRACOTTA = registerBlock("lavender_glazed_terracotta",
             new Block(FabricBlockSettings.copyOf(Blocks.WHITE_GLAZED_TERRACOTTA)));
+
 
 
     private static Block registerBlock(String name, Block block) {

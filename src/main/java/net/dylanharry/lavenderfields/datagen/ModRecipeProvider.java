@@ -28,7 +28,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 0.1f, 200, "lavender_glazed_terracotta");
 
         offerTerracottaDyeingRecipe(exporter, ModBlocks.LAVENDER_TERRACOTTA, ModItems.LAVENDER_DYE);
-        offerStainedGlassPaneDyeingRecipe(exporter, ModBlocks.LAVENDER_STAINED_GLASS, ModItems.LAVENDER_DYE);
+        offerStainedGlassDyeingRecipe(exporter, ModBlocks.LAVENDER_STAINED_GLASS, ModItems.LAVENDER_DYE);
+        offerStainedGlassPaneDyeingRecipe(exporter, ModBlocks.LAVENDER_STAINED_GLASS_PANE, ModItems.LAVENDER_DYE);
         offerConcretePowderDyeingRecipe(exporter, ModBlocks.LAVENDER_CONCRETE_POWDER, ModItems.LAVENDER_DYE);
 
     }

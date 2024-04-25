@@ -20,5 +20,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LAVENDER_WOOL);
 
         addDrop(ModBlocks.LAVENDER_STAINED_GLASS, dropsWithSilkTouch(ModBlocks.LAVENDER_STAINED_GLASS));
+        addDrop(ModBlocks.LAVENDER_STAINED_GLASS_PANE, dropsWithSilkTouch(ModBlocks.LAVENDER_STAINED_GLASS_PANE));
     }
 }
