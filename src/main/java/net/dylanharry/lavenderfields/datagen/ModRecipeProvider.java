@@ -31,6 +31,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStainedGlassDyeingRecipe(exporter, ModBlocks.LAVENDER_STAINED_GLASS, ModItems.LAVENDER_DYE);
         offerStainedGlassPaneDyeingRecipe(exporter, ModBlocks.LAVENDER_STAINED_GLASS_PANE, ModItems.LAVENDER_DYE);
         offerConcretePowderDyeingRecipe(exporter, ModBlocks.LAVENDER_CONCRETE_POWDER, ModItems.LAVENDER_DYE);
+        offerCandleDyeingRecipe(exporter, ModBlocks.LAVENDER_CANDLE, ModItems.LAVENDER_DYE);
 
     }
 }

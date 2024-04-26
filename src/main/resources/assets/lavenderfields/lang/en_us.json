@@ -3,12 +3,22 @@
   "item.lavenderfields.lavender_oil": "Lavender Oil",
 
   "block.lavenderfields.lavender_wool": "Lavender Wool",
+
   "block.lavenderfields.lavender_terracotta": "Lavender Terracotta",
   "block.lavenderfields.lavender_glazed_terracotta": "Lavender Glazed Terracotta",
+
   "block.lavenderfields.lavender_concrete_powder": "Lavender Concrete Powder",
   "block.lavenderfields.lavender_concrete": "Lavender Concrete",
+
   "block.lavenderfields.lavender_stained_glass": "Lavender Stained Glass",
   "block.lavenderfields.lavender_stained_glass_pane": "Lavender Stained Glass Pane",
+
+  "block.lavenderfields.lavender_candle": "Lavender Candle",
+  "block.lavenderfields.lavender_candle_cake": "Lavender Candle Cake",
+
+  "block.lavenderfields.lavender_flower": "Lavender Flower",
+
+  "entity.minecraft.villager.florist": "Florist",
 
   "itemgroup.lavendergroup": "Lavender Fields"
 }

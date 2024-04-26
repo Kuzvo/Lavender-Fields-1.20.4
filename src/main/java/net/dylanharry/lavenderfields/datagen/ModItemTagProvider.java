@@ -20,5 +20,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.LAVENDER_WOOL.asItem());
         getOrCreateTagBuilder(ItemTags.TERRACOTTA)
                 .add(ModBlocks.LAVENDER_TERRACOTTA.asItem());
+        getOrCreateTagBuilder(ItemTags.CANDLES)
+                .add(ModBlocks.LAVENDER_CANDLE.asItem());
+
     }
 }

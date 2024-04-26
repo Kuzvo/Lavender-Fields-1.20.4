@@ -25,6 +25,9 @@ public static final ItemGroup LAVENDER_GROUP = Registry.register(Registries.ITEM
                     entries.add(ModBlocks.LAVENDER_STAINED_GLASS);
                     entries.add(ModBlocks.LAVENDER_STAINED_GLASS_PANE);
                     entries.add(ModBlocks.LAVENDER_GLAZED_TERRACOTTA);
+                    entries.add(ModBlocks.LAVENDER_CANDLE);
+                    entries.add(ModBlocks.LAVENDER_FLOWER);
+
                 }).build());
 
 public static void registerItemGroups() {

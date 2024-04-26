@@ -15,5 +15,6 @@ public class LavenderFieldsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 
+
 	}
 }

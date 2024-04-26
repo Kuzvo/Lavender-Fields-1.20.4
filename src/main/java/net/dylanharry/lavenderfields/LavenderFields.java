@@ -3,6 +3,7 @@ package net.dylanharry.lavenderfields;
 import net.dylanharry.lavenderfields.block.ModBlocks;
 import net.dylanharry.lavenderfields.item.ModItemGroups;
 import net.dylanharry.lavenderfields.item.ModItems;
+import net.dylanharry.lavenderfields.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class LavenderFields implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModVillagers.registerVillagers();
 
 	}
 }

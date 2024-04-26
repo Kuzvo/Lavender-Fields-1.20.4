@@ -31,5 +31,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.WOOL)
                 .add(ModBlocks.LAVENDER_WOOL);
+
+        getOrCreateTagBuilder(BlockTags.CANDLES)
+                .add(ModBlocks.LAVENDER_CANDLE);
     }
 }
