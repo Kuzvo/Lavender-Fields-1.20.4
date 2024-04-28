@@ -13,7 +13,7 @@ public class LavenderFieldsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVENDER_STAINED_GLASS_PANE, RenderLayer.getTranslucent());
         //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVENDER_STAINED_GLASS_PANE, RenderLayer.getCutout());
 
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVENDER_CANDLE, RenderLayer.getCutout());
+        //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVENDER_CANDLE, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVENDER_FLOWER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_LAVENDER_FLOWER, RenderLayer.getCutout());

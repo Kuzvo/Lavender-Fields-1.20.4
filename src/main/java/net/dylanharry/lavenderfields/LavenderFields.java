@@ -4,6 +4,7 @@ import net.dylanharry.lavenderfields.block.ModBlocks;
 import net.dylanharry.lavenderfields.item.ModItemGroups;
 import net.dylanharry.lavenderfields.item.ModItems;
 import net.dylanharry.lavenderfields.villager.ModVillagers;
+import net.dylanharry.lavenderfields.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -23,5 +24,6 @@ public class LavenderFields implements ModInitializer {
 
 		ModVillagers.registerVillagers();
 
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

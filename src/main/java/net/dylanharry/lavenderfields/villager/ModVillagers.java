@@ -5,6 +5,7 @@ import net.dylanharry.lavenderfields.LavenderFields;
 import net.dylanharry.lavenderfields.block.ModBlocks;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -16,7 +17,7 @@ import net.minecraft.world.poi.PointOfInterestType;
 
 public class ModVillagers {
     public static final RegistryKey<PointOfInterestType> FLORIST_POI_KEY = poiKey("floristpoi");
-    public static final PointOfInterestType FLORIST_POI = registerPoi("floristpoi", ModBlocks.LAVENDER_CONCRETE);
+    public static final PointOfInterestType FLORIST_POI = registerPoi("floristpoi", Blocks.DECORATED_POT);
 
     public static final VillagerProfession FLORIST_MASTER = registerProfession("florist", FLORIST_POI_KEY);
 
