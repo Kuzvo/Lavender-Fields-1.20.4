@@ -3,6 +3,7 @@ package net.dylanharry.lavenderfields;
 import net.dylanharry.lavenderfields.datagen.*;
 import net.dylanharry.lavenderfields.world.ModConfiguredFeatures;
 import net.dylanharry.lavenderfields.world.ModPlacedFeatures;
+import net.dylanharry.lavenderfields.world.biome.ModBiomes;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -28,5 +29,6 @@ public class LavenderFieldsDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::boostrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::boostrap);
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::boostrap);
 	}
 }

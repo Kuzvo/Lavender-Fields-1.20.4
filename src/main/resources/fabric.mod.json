@@ -23,6 +23,9 @@
 		],
 		"fabric-datagen": [
 			"net.dylanharry.lavenderfields.LavenderFieldsDataGenerator"
+		],
+		"terrablender": [
+			"net.dylanharry.lavenderfields.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [
