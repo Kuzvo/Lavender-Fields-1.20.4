@@ -3,6 +3,7 @@ package net.dylanharry.lavenderfields;
 import net.dylanharry.lavenderfields.block.ModBlocks;
 import net.dylanharry.lavenderfields.entity.ModEntities;
 import net.dylanharry.lavenderfields.entity.custom.GoldfinchEntity;
+import net.dylanharry.lavenderfields.entity.custom.LavenderGolemEntity;
 import net.dylanharry.lavenderfields.item.ModItemGroups;
 import net.dylanharry.lavenderfields.item.ModItems;
 import net.dylanharry.lavenderfields.villager.ModVillagers;
@@ -28,6 +29,8 @@ public class LavenderFields implements ModInitializer {
 		ModVillagers.registerVillagers();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.GOLDFINCH, GoldfinchEntity.createGoldfinchAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.LAVENDERGOLEM, LavenderGolemEntity.createLavenderGolemAttributes());
+
 
 		ModWorldGeneration.generateModWorldGen();
 	}

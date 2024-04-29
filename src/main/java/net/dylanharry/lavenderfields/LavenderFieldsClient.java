@@ -2,9 +2,7 @@ package net.dylanharry.lavenderfields;
 
 import net.dylanharry.lavenderfields.block.ModBlocks;
 import net.dylanharry.lavenderfields.entity.ModEntities;
-import net.dylanharry.lavenderfields.entity.client.GoldfinchModel;
-import net.dylanharry.lavenderfields.entity.client.GoldfinchRenderer;
-import net.dylanharry.lavenderfields.entity.client.ModModelLayers;
+import net.dylanharry.lavenderfields.entity.client.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
@@ -28,5 +26,8 @@ public class LavenderFieldsClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.GOLDFINCH, GoldfinchRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.GOLDFINCH, GoldfinchModel::getTexturedModelData);
+
+        EntityRendererRegistry.register(ModEntities.LAVENDERGOLEM, LavenderGolemRenderer::new);
+        EntityModelLayerRegistry.registerModelLayer(ModModelLayers.LAVENDERGOLEM, LavenderGolemModel::getTexturedModelData);
     }
 }
